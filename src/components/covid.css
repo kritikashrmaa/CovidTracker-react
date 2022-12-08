@@ -1,0 +1,54 @@
+.mainbody {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+h1, p, h2 {
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__main {
+    align-items: center;
+    background-color: rgb(116, 116, 209);
+    padding: 50px;
+    transition: transform .2s;
+    width: 400px;
+    height: 150px;
+    margin: 20px 20px;
+
+}
+.card__main:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+.card__name{
+    font-size: 35px;
+    font-weight: bold;
+    font: bold 20px Georgia, Serif;
+}
+
+.card__name span {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.card__total {
+    font-size: 35px;
+    font-weight: bold;
+    color: #e0eff2;
+    font: italic bold 40px Georgia, Serif;
+    text-shadow: -4px 3px 2px #3a50d9, -7px 6px 2px #0a0e27;
+}
